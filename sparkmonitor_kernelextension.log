@@ -1,0 +1,30 @@
+INFO:  2018-11-17 00:25:00,138 - sparkmonitorkernel - 16322 - MainProcess -         4320502592 - MainThread
+ Starting Kernel Extension 
+
+INFO:  2018-11-17 00:25:00,150 - sparkmonitorkernel - 16322 - MainProcess -         4320502592 - MainThread
+ Socket Listening on port 54142 
+
+INFO:  2018-11-17 00:25:00,151 - sparkmonitorkernel - 16322 - MainProcess -         123145370230784 - Thread-4
+ Starting socket thread, going to accept 
+
+INFO:  2018-11-17 00:25:00,152 - sparkmonitorkernel - 16322 - MainProcess -         4320502592 - MainThread
+ 54142 
+
+INFO:  2018-11-17 00:25:00,153 - sparkmonitorkernel - 16322 - MainProcess -         4320502592 - MainThread
+ Adding jar from /Users/stacey/anaconda/lib/python3.6/site-packages/sparkmonitor/listener.jar  
+
+INFO:  2018-11-17 00:25:27,000 - sparkmonitorkernel - 16322 - MainProcess -         123145370230784 - Thread-4
+ Client Connected ('127.0.0.1', 54153) 
+
+INFO:  2018-11-17 00:25:27,121 - sparkmonitorkernel - 16322 - MainProcess -         123145370230784 - Thread-4
+ Message Received: 
+{
+  "msgtype" : "sparkExecutorAdded",
+  "executorId" : "driver",
+  "time" : 1542403526617,
+  "host" : "localhost",
+  "numCores" : 4,
+  "totalCores" : 4
+}
+ 
+
